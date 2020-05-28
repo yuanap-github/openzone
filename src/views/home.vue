@@ -840,7 +840,9 @@ export default {
 }
 </script>
 <style>
-
+    .van-field__control::placeholder {
+    color: white; opacity: 1;
+  }
   .school_select_home .van-field{
     background: red;color:white
   }
