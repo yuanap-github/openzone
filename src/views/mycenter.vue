@@ -867,7 +867,7 @@ export default {
 </style>
 <style>
 .myceneter_header{
-   width: 100%;height: 100px;
+   width: 100%;height: 100px;position: relative;
 
   }
 .myceneter_header .user-poster{
