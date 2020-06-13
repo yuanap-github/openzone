@@ -25,6 +25,7 @@ class WorksController extends Controller
     if (count($users) == 0) {
       return response()->json(['status' => 0, 'msg' => config('config.ErroorCode')['10003'], 'data' => null]);
     }
+
     if (!empty($imgBase64)) {
       foreach ($imgBase64['data'] as $key => $base64) {
         # code...
